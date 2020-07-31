@@ -1,0 +1,67 @@
+.navBar{
+  padding: 4px;
+  background: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+}
+.navBar ul li{
+   list-style:none; 
+      }
+.navBar a{
+	text-decoration:none;
+	color:#76b852;
+	font-size: 20px;
+	
+}  
+.signUpForm {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
+.form input[type=submit] {
+    width:110px;
+    background-color: #43A047;
+    border: none;
+    color:#fff;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+    
+}
+.form input[type=reset] {
+    width:110px;
+    background-color: #43A047;
+    border: none;
+    color:#fff;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+
+body {
+  background: #76b852; 
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
